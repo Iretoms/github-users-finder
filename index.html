@@ -6,9 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Users Finder</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <form class="search-section">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" class="search" placeholder="Search Github username. . .">
+            <button type="submit" class="search-btn">Search</button>
+        </form>
+
+        <div class="user">
+            <div class="user-image">
+                <img src="" alt="">
+            </div>
+
+            <div class="user-info">
+                <div class="name">
+                    <div>
+                        <h2>The Octocat</h2>
+                        <small>@octocat</small>
+                    </div>
+                    <small>
+                        Joined Tue Jan 25 2011
+                    </small>
+                </div>
+
+                <div class="about">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Facilis doloremque totam deleniti? Nostrum, sapiente
+                      aperiam.
+                </div>
+
+                <div class="activity">
+                    <div class="repos">
+                        <small>Repos</small>
+                        <h2>8</h2>
+                    </div>
+                    <div class="followers">
+                        <small>Followers</small>
+                        <h2>5650</h2>
+                    </div>
+                    <div class="following">
+                        <small>Following</small>
+                        <h2>9</h2>
+                    </div>
+                </div>
+
+                <div class="link">
+                    <i class="fa-solid fa-link"></i>
+                    <a href="#">https://github.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
