@@ -78,7 +78,7 @@ small,a {
 }
 
 .user {
-    padding: 2rem 1.5rem 2rem 1.5rem;
+    padding: 3rem 2rem 2rem 2rem;
     background-color: #1d2b48;
     margin-top: 1.5rem;
     display: flex;
@@ -88,8 +88,8 @@ small,a {
 
 .user-image {
     background-color: rgba(0,0,0,0.5);
-    width: 13rem;
-    height: 7rem;
+    width: 16rem;
+    height: 6.5rem;
     border-radius: 50%;
     overflow: hidden;
 }
