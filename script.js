@@ -88,5 +88,9 @@ form.addEventListener('submit',(e)=>{
         fetchUser(username)
 
         search.value = ''
+
+        setTimeout(() => {
+            window.location.reload()
+        }, 20000 );
     }
 })
